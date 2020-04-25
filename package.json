@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/pages/**/*.html",
+    "lint": "eslint src/js/**/*.js",
+    "format": "prettier src/**/*.{js,html,css} --write"
   },
   "author": "",
   "license": "ISC",
