@@ -7,64 +7,551 @@ body {
   padding: 0px;
 }
 .topbar {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .nav-link {
   color: #000;
-  font-size: 10px;
+  font-size: 15px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-}
-.nav-link {
-  display: flex;
-  justify-content: space-between;
   margin-right: 10px;
 }
+.buttons {
+  text-align: center;
+}
+.choose-plan-btn,
+.amazing-design-btn,
 .banner-btn,
 .button {
-  background: transparent;
   border-radius: 100px;
   padding: 10px 25px;
-  font-size: 10px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   border: none;
   color: #fff;
-  margin-top: 10px;
+  margin-top: 15px;
 }
-.banner-btn,
 .buttons :first-child {
   background-color: #f51e46;
 }
+.choose-plan-btn,
+.amazing-design-btn,
 .buttons :last-child {
-  background-color: #000;
+  background-color: #2f003b;
 }
 .banner {
-  padding: 100px;
+  padding: 130px 0px;
 }
 .banner-title {
-  font-size: 70px;
+  font-size: 100px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  line-height: 70px;
+  font-weight: 500;
+  line-height: 100px;
 }
 .banner-title b {
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 70px;
+  font-weight: 700;
 }
 .banner-title span {
   color: #f51e46;
 }
 .banner p {
   font-family: 'Arimo', sans-serif;
-  font-size: 20px;
+  font-size: 28px;
   color: #666666;
 }
 .banner-btn {
   padding: 15px 35px;
   margin-top: 20px;
+  background-color: #2f003b;
 }
 .fa-long-arrow-alt-right {
   margin-left: 10px;
+}
+.awards,
+.projects,
+.clients,
+.apps {
+  background-color: #fd635e;
+  padding: 50px;
+  position: relative;
+}
+.projects h5,
+.awards h5,
+.clients h5,
+.apps h5 {
+  margin: 0px;
+  color: #fff;
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+.projects h1,
+.awards h1,
+.clients h1,
+.apps h1 {
+  margin: 0px;
+  font-size: 70px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  padding: 0px;
+}
+.clients {
+  background-color: #2f003b;
+}
+.awards {
+  background-color: #ffbe4d;
+}
+.projects {
+  background-color: #1e1f20;
+}
+.project-images {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 120px;
+}
+.dream-big-section {
+  padding: 100px 0px;
+  position: relative;
+}
+.background-image {
+  position: absolute;
+  bottom: -1250px;
+}
+.recent-projects .sub-heading,
+.creative,
+.sub-heading {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #808080;
+  margin: 0px;
+}
+.pricing-title h1,
+.recent-projects .icecream-mockup,
+.recent-projects h1,
+.amazing-design h1,
+.text-section h1 {
+  font-size: 42px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #333333;
+}
+.text-section span {
+  color: #f51e46;
+}
+.amazing-design p,
+.text-section p {
+  font-size: 18px;
+  font-family: 'Arimo', sans-serif;
+  color: #808080;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.product-img {
+  position: relative;
+}
+.marketing-text {
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+.marketing-text h5 {
+  margin-top: 60px;
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.marketing-text p {
+  font-size: 16px;
+  font-family: 'Arimo', sans-serif;
+  margin: 40px 0px 40px 30px;
+}
+.marketing-text button {
+  background-color: transparent;
+  color: #fff;
+  border: 0px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-left: 30px;
+  border-bottom: 1px solid #fff;
+  padding: 0px;
+}
+.marketing-text .fa-angle-right {
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+
+.my-products:hover .marketing-text {
+  background-color: #2f003b;
+}
+.my-products:hover .marketing-text {
+  display: block;
+}
+.amazing-design {
+  background-color: #fbfbfb;
+  padding: 0px 0px 50px 0px;
+}
+.amazing-design-text {
+  margin-left: 50px;
+}
+.amazing-design .sub-heading {
+  font-size: 22px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+.amazing-design h1 {
+  margin: 10px 0px;
+}
+.amazing-design p {
+  margin-bottom: 20px;
+}
+.amazing-design-btn {
+  margin-top: 0px;
+}
+.recent-projects {
+  padding: 100px 0px;
+}
+.price-title,
+.recent-projects h1 {
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.recent-projects .creative {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f63a59;
+}
+.recent-projects .icecream-mockup {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.unique-brand .create-by,
+.recent-projects .create-by {
+  font-size: 22px;
+  color: #000;
+}
+.project-inform {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.unique-brand {
+  background-color: #dcdadb;
+  margin: 50px 0px;
+}
+.brand-text {
+  margin-top: 100px;
+}
+.unique-brand .creative {
+  margin-bottom: 10px;
+}
+.unique-brand .icecream-mockup {
+  margin-bottom: 20px;
+}
+.photography-img {
+  margin-bottom: 30px;
+}
+.photography .icecream-mockup {
+  margin-bottom: 30px;
+}
+.female,
+.male {
+  background-color: #f7f7f7;
+  padding-top: 100px;
+  position: relative;
+}
+.female {
+  background-color: #e8e8e8;
+}
+.team-title-heading {
+  position: absolute;
+  right: 500px;
+  top: 3850px;
+}
+.team-section .sub-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #8a8a8a;
+  font-size: 18px;
+}
+.team-title {
+  font-size: 110px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #333333;
+}
+.team-section .amazing-design-btn {
+  padding: 20px 40px;
+}
+.member-information-2,
+.member-information {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.member-information-2 {
+  margin-left: 0px;
+  text-align: end;
+}
+.female .icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.member-information-2 .work,
+.member-information .work {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fd635e;
+}
+.member-information-2 .name,
+.member-information .name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #333333;
+}
+.member-information-2 .contact-number,
+.member-information .contact-number {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  color: #444444;
+}
+.member-icon-1,
+.member-icon {
+  padding: 12px 15px;
+  background-color: #fff;
+  border-radius: 100px;
+}
+.member-icon-1 {
+  padding: 12px 18px;
+}
+.member-image {
+  margin-right: 50px;
+}
+.member-image-2 {
+  margin-left: 50px;
+}
+.pricing-plan {
+  padding: 100px 0px 0px 0px;
+}
+.plan {
+  padding: 50px 0px;
+  box-shadow: 2px 2px 20px 20px #f0f0f0;
+}
+.plan h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.price sup {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #fd635e;
+  font-size: 40px;
+}
+.price p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #333333;
+  font-size: 80px;
+  margin: 0px;
+  line-height: 80px;
+}
+.plan .lorem {
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  color: #666666;
+  margin: 30px 0px;
+}
+.plan .pkg-days {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+  margin: 0px;
+}
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.packages ul li {
+  list-style: none;
+  font-family: 'Arimo', sans-serif;
+  font-size: 15px;
+  margin: 15px 0px;
+}
+.packages ul li::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin: 15px 0px;
+  border-bottom: 1px dashed #bbbbbb;
+}
+.packages ul :last-child::after {
+  content: none;
+}
+.packages .fa-check {
+  margin-right: 10px;
+  font-size: 0.7em;
+  color: #f51e46;
+}
+.choose-plan-btn {
+  margin: 0px;
+}
+.pricing-title h1 {
+  margin-bottom: 50px;
+}
+.logo-section {
+  background-color: #fd5450;
+  padding: 100px 0px;
+}
+.brand-images {
+  display: flex;
+  justify-content: space-between;
+}
+.why-cchoose-us {
+  padding: 100px 0px;
+}
+.financial-analysis-1 {
+  margin-bottom: 30px;
+}
+.financial-analysis-1,
+.financial-analysis {
+  padding: 50px 0px;
+  border: 2px dashed #d2d2d2;
+  box-shadow: 1px 1px 12px 12px #f0f0f0;
+}
+.financial-analysis-1 h1,
+.financial-analysis h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  margin: 15px 0px;
+}
+.financial-analysis-1 p,
+.financial-analysis p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  color: #666666;
+  margin: 0px;
+}
+.recent-updates {
+  background-color: #fd635e;
+  padding: 100px 0px 200px 0px;
+}
+.recent-updates .sub-heading,
+.recent-updates h1 {
+  color: #fff;
+}
+
+.posted-image {
+  padding: 100px 0px;
+  background-color: #2f003b;
+}
+.posted-text {
+  padding: 35px;
+  background-color: #fff;
+}
+.posted p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.posted .date {
+  font-size: 18px;
+  color: #444444;
+}
+.posted p span {
+  color: #fd635e;
+}
+.posted h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.circle-image {
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 7px;
+  position: absolute;
+  right: 60px;
+  bottom: -20px;
+}
+.sign-up-newsletter {
+  background-color: #2f003b;
+  padding: 50px 100px;
+}
+.sign-up-newsletter h1 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+.sign-up-newsletter p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  margin: 0px;
+}
+.sign-up-newsletter input {
+  width: 90%;
+  padding: 20px 0px;
+  border-radius: 50px;
+  border: none;
+}
+.subscribe-btn {
+  border-radius: 50px;
+  padding: 15px 30px;
+  background-color: #fd635e;
+  border: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 50px;
+  top: 5px;
+}
+#footer {
+  padding: 100px 0px 0px 0px;
+}
+#footer ul li a {
+  color: #444444;
+}
+#footer p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 20px;
+}
+#footer p span {
+  color: #fd635e;
+}
+#footer ul {
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: medium;
+  color: #444444;
+  line-height: 30px;
+}
+#footer ul .fa-long-arrow-alt-right {
+  color: #fd635e;
+  margin-right: 10px;
 }
