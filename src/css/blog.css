@@ -1,0 +1,284 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Arimo', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+.blog-section {
+  padding: 100px 0px;
+}
+.blogs {
+  -webkit-box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.02);
+  -moz-box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.02);
+  box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+}
+.blog-circle-img {
+  background-color: #fff;
+  position: absolute;
+  top: 170px;
+  left: 50px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.blog-text {
+  padding: 50px 0px 50px 40px;
+}
+.blog-text h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #b0b0b0;
+}
+.blog-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+.blog-text p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  color: #b0b0b0;
+}
+.blog-text .date {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 18px;
+}
+.blog-text .date span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #f51e46;
+  font-size: 40px;
+}
+.pagination .page-link {
+  padding: 20px;
+}
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+  margin-left: 0;
+  border-radius: 0px;
+  border: none;
+  padding: 15px;
+}
+.pagination .page-item:first-child .page-link {
+  margin-right: 15px;
+  background-color: #2f2f2f;
+}
+.pagination .page-item:last-child .page-link {
+  margin-left: 15px;
+  background-color: #f51e46;
+}
+.fa-long-arrow-alt-left,
+.fa-long-arrow-alt-right {
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+}
+.page-item .page-link {
+  border: none;
+  background-color: #fbfbfb;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 15px;
+  border-left: 1px solid #ebebeb;
+}
+
+.blog-details {
+  padding: 100px 0px;
+}
+.blog-details .date {
+  background-color: #f51e46;
+  text-align: center;
+  width: 35%;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.date h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 0px;
+}
+.iphone-X {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+.iphone-X::after {
+  content: '';
+  display: block;
+  width: 21%;
+  margin: 20px 0px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.comments-name,
+.comments-quantity {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #959595;
+}
+.comments-name {
+  margin-right: 20px;
+}
+.comments-quantity {
+  margin-left: 20px;
+}
+.member-icon-1,
+.member-icon {
+  background-color: #fbfbfb;
+  border-radius: 100px;
+  margin-right: 5px;
+}
+.member-icon:hover,
+.member-icon-1:hover {
+  background-color: #f51e46;
+  color: #fff;
+}
+.blog-detail-img {
+  margin: 30px 0px;
+}
+.blog-details p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  color: #747474;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.background {
+  background-color: #f51e46;
+  padding: 70px 50px;
+  margin: 30px 0px;
+  position: relative;
+}
+.background p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0px 0px 0px 50px;
+}
+.coma-image-2,
+.coma-image {
+  position: absolute;
+  top: 60px;
+}
+.coma-image-2 {
+  top: 150px;
+  right: 450px;
+}
+.services-provide ul {
+  list-style: none;
+  padding: 0px;
+  margin: 20px 0px;
+}
+.services-provide ul li {
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #747474;
+}
+.blog-image {
+  margin-bottom: 30px;
+}
+.Comments {
+  margin: 50px 0px;
+}
+.Comments h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+.comment-person {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    68deg,
+    rgba(255, 255, 255, 1) 13%,
+    rgba(252, 252, 252, 1) 13%
+  );
+  padding: 30px 0px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.comment-person::before {
+  content: '';
+  display: block;
+  width: 94%;
+  border: 2px solid #f51e46;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.comment-2::before {
+  width: 95%;
+}
+.comment-2 {
+  width: 85%;
+  margin-left: 135px;
+}
+.jockon-dom-image {
+  background: #fff;
+  padding: 10px;
+  border-radius: 100px;
+  width: 130px;
+}
+.comment-person h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #454545;
+  margin-right: 30px;
+}
+.date-name {
+  margin-bottom: 10px;
+}
+.date-name p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #f51e46;
+  margin-bottom: 0px;
+}
+.comment-person p {
+  margin: 0px;
+}
+.comment-person .reply-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #f51e46;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+}
+.Comments input,
+.Comments textarea {
+  width: 100%;
+  background-color: #fbfbfb;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7f7f7f;
+  border: none;
+  padding: 20px 30px;
+}
+.name-email {
+  margin: 40px 0px 10px 0px;
+}
+.Comments textarea {
+  margin-top: 10px;
+}
+.comment-btn {
+  background-color: #f51e46;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 15px 30px;
+  margin-top: 20px;
+  font-weight: 600;
+}
