@@ -163,32 +163,33 @@ body {
   top: 0px;
   display: none;
 }
+.marketing-text {
+  padding: 48px 25px;
+}
 .marketing-text h5 {
-  margin-top: 60px;
-  font-size: 26px;
+  font-size: 22px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  margin-left: 30px;
 }
 .marketing-text p {
-  font-size: 16px;
+  font-size: 13px;
   font-family: 'Arimo', sans-serif;
-  margin: 40px 0px 40px 30px;
+  line-height: 20px;
+  margin: 20px 0px 35px 0px;
 }
 .marketing-text button {
   background-color: transparent;
   color: #fff;
   border: 0px;
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  margin-left: 30px;
+  font-weight: 700;
   border-bottom: 1px solid #fff;
   padding: 0px;
 }
 .marketing-text .fa-angle-right {
   margin-left: 10px;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .my-products:hover .marketing-text {
@@ -331,6 +332,10 @@ body {
   padding: 12px 15px;
   background-color: #fff;
   border-radius: 100px;
+}
+.member-icon-1 a,
+.member-icon a {
+  color: #000;
 }
 .member-icon-1 {
   padding: 12px 18px;
@@ -596,3 +601,17 @@ body {
 #footer-bottom ul li a:hover {
   color: #f51e46;
 }
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 767px) {
+  /* Code here */
+} /* Only Mobile */
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+} /* Only Tablet */
+
+@media only screen and (min-width: 1200px) {
+} /* Only Destop */
+
+@media only screen and (min-width: 1600px) {
+} /* Only Large Screen */

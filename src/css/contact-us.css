@@ -1,0 +1,82 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Arimo', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+.contact-section .sub-title {
+  font-size: 17px;
+}
+.question-form,
+.contact-information {
+  padding: 100px 50px;
+  background-color: #fff;
+  background-color: #fff;
+}
+.question-form {
+  padding: 103px 50px;
+}
+.contact-us {
+  -webkit-box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.02);
+  -moz-box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.02);
+  box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.02);
+}
+.contact-section h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.location {
+  margin-bottom: 30px;
+}
+.phone-icon,
+.location-icon {
+  background-color: #fff;
+  padding: 15px 20px;
+  border: 10px solid #fdd1d9;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+.phone-icon {
+  padding: 15px 17px;
+}
+.location p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+}
+.contact-information .icons {
+  margin-top: 60px;
+}
+.question-form {
+  background-color: #f51e46;
+  color: #fff;
+}
+.question-form .sub-title {
+  color: #fff;
+}
+.question-form textarea,
+.question-form input {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 0px 10px 20px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.question-form textarea {
+  padding-top: 20px;
+}
+.question-form .btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+}
+.contact-section {
+  margin-top: -430px;
+}

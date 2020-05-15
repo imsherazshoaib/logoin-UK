@@ -75,6 +75,7 @@ font-family: 'Open Sans', sans-serif; */
   margin: 0px;
   color: #fff;
 }
+
 .page-item .page-link {
   border: none;
   background-color: #fbfbfb;
@@ -84,7 +85,9 @@ font-family: 'Open Sans', sans-serif; */
   font-size: 15px;
   border-left: 1px solid #ebebeb;
 }
-
+.pagination .page-item:nth-child('2') .page-link {
+  border: none;
+}
 .blog-details {
   padding: 100px 0px;
 }
