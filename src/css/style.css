@@ -17,6 +17,9 @@ body {
   font-weight: 600;
   margin-right: 10px;
 }
+.nav-link:hover {
+  color: #f51e46;
+}
 .buttons {
   text-align: end;
 }
@@ -84,7 +87,7 @@ body {
 .apps h5 {
   margin: 0px;
   color: #fff;
-  font-size: 26px;
+  font-size: 20px;
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
 }
@@ -94,7 +97,7 @@ body {
 .clients h1,
 .apps h1 {
   margin: 0px;
-  font-size: 70px;
+  font-size: 50px;
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -111,8 +114,8 @@ body {
 }
 .project-images {
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  right: -35px;
+  bottom: -50px;
   width: 120px;
 }
 .dream-big-section {
@@ -245,15 +248,6 @@ body {
   background-color: #dcdadb;
   margin: 50px 0px;
 }
-.brand-text {
-  margin-top: 100px;
-}
-.unique-brand .creative {
-  margin-bottom: 10px;
-}
-.unique-brand .icecream-mockup {
-  margin-bottom: 20px;
-}
 .photography-img {
   margin-bottom: 30px;
 }
@@ -357,7 +351,7 @@ body {
 }
 .plan {
   background-color: #fff;
-  padding: 50px 0px;
+  padding: 50px;
   -webkit-box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.04);
   -moz-box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.04);
   box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.04);
@@ -604,6 +598,228 @@ body {
 
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 767px) {
+  .banner-btn,
+  .buttons > .button {
+    font-size: 10px;
+    padding: 7px 14px;
+  }
+  .banner {
+    padding: 75px 0px;
+  }
+  .banner-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .banner-title b {
+    font-size: 35px;
+  }
+  .banner p {
+    font-size: 14px;
+  }
+  .banner-btn {
+    margin-top: 0px;
+  }
+  .awards,
+  .projects,
+  .clients,
+  .apps {
+    padding: 30px;
+  }
+  .projects h5,
+  .awards h5,
+  .clients h5,
+  .apps h5 {
+    font-size: 12px;
+  }
+
+  .projects h1,
+  .awards h1,
+  .clients h1,
+  .apps h1 {
+    font-size: 30px;
+  }
+  .project-images {
+    width: 60px;
+    position: absolute;
+    right: -15px;
+    bottom: -30px;
+  }
+  .dream-big-section {
+    padding: 50px 0px;
+  }
+  .recent-projects .sub-heading,
+  .team-title-heading .sub-heading,
+  .creative,
+  .sub-heading {
+    font-size: 9px;
+  }
+  .pricing-title h1,
+  .recent-projects h1,
+  .amazing-design h1,
+  .text-section h1 {
+    font-size: 21px;
+  }
+  .amazing-design p,
+  .text-section p {
+    font-size: 9px;
+    margin-top: 10px;
+  }
+  .marketing-text {
+    padding: 48px 25px;
+  }
+  .my-products {
+    margin-bottom: 25px;
+  }
+  .marketing-text h5 {
+    font-size: 20px;
+  }
+  .marketing-text p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 21px 0px;
+  }
+  .marketing-text button {
+    font-size: 10px;
+    margin: 0px;
+  }
+  .marketing-text .fa-angle-right {
+    margin-left: 5px;
+    font-size: 1em;
+  }
+  .amazing-design-text {
+    text-align: center;
+  }
+  .amazing-design-text .sub-heading {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+  .amazing-design-text h1 {
+    font-size: 36px;
+  }
+  .amazing-design-text p {
+    font-size: 16px;
+  }
+  .project-inform .creative,
+  .brand-text .creative,
+  .photography .creative {
+    font-size: 8px;
+  }
+  .Mockup-img {
+    width: 330px;
+  }
+  .recent-projects .icecream-mockup {
+    font-size: 16px;
+  }
+  .pricing-plan,
+  .recent-projects {
+    padding: 50px 0px;
+  }
+  .recent-projects .create-by,
+  .brand-text .create-by,
+  .photography .sub-heading {
+    font-size: 11px;
+    margin: 0px;
+  }
+  .recent-projects .icecream-mockup {
+    margin: 10px 0px;
+  }
+  .brand-img {
+    width: 300px;
+  }
+  .brand-text {
+    margin: 0px;
+  }
+  .photography-image {
+    width: 150px;
+  }
+  .first-member {
+    padding: 100px 0px;
+  }
+  .member-img {
+    width: 175px;
+  }
+  .team-title {
+    font-size: 60px;
+  }
+  .team-title-heading .amazing-design-btn {
+    font-size: 11px;
+    padding: 10px 25px;
+  }
+  .team-title-heading {
+    right: 38%;
+  }
+  .member-information .work,
+  .member-information-2 .work {
+    font-size: 10px;
+  }
+  .member-information .name,
+  .member-information-2 .name {
+    font-size: 20px;
+  }
+  .member-information .contact-number,
+  .member-information-2 .contact-number {
+    font-size: 13px;
+  }
+  .member-icon {
+    padding: 6px 7px;
+    font-size: 0.5em;
+  }
+  .member-icon-1 {
+    padding: 6px 9px;
+    font-size: 0.5em;
+  }
+  .plan {
+    padding: 30px 10px;
+    -webkit-box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.04);
+    box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.04);
+  }
+  .plan h1 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .price sup {
+    font-size: 24px;
+  }
+  .price p {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .plan .lorem {
+    font-size: 8px;
+    margin: 15px 0px;
+  }
+  .plan .pkg-days {
+    font-size: 12px;
+  }
+  .packages ul {
+    padding: 0px;
+  }
+  .packages ul li {
+    font-size: 7px;
+    margin: 7px 0px;
+  }
+  .packages ul li::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin: 7px 0px;
+    border-bottom: 1px dashed #bbbbbb;
+  }
+  .packages ul :last-child::after {
+    content: none;
+  }
+  .packages .fa-check {
+    margin-right: 10px;
+    font-size: 0.7em;
+    color: #f51e46;
+  }
+  .choose-plan-btn {
+    padding: 5px 12px;
+    font-size: 8px;
+    margin: 0px;
+  }
   /* Code here */
 } /* Only Mobile */
 
