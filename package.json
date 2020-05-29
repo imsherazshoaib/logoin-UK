@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "parcel src/pages/**/*.html",
     "lint": "eslint src/js/**/*.js",
-    "format": "prettier src/**/*.{js,html,css} --write"
+    "format": "prettier src/**/*.{js,html,css} --write",
+    "build": "parcel build ./src/**/*.html && cp ./src/CNAME ./dist",
+    "deploy": "npm run build && surge dist"
   },
   "author": "",
   "license": "ISC",
