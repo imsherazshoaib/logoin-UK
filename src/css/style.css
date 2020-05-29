@@ -820,6 +820,9 @@ body {
     font-size: 8px;
     margin: 0px;
   }
+  .brand-image {
+    width: 100px;
+  }
   /* Code here */
 } /* Only Mobile */
 
