@@ -222,6 +222,13 @@ body {
 .amazing-design-btn {
   margin-top: 0px;
 }
+.amazing-design-btn a {
+  color: #fff;
+}
+.amazing-design-btn:hover a {
+  color: #fff;
+  text-decoration: none;
+}
 .recent-projects {
   padding: 100px 0px;
 }
@@ -321,18 +328,20 @@ body {
   font-size: 26px;
   color: #444444;
 }
-.member-icon-1,
 .member-icon {
-  padding: 12px 15px;
+  width: 45px;
+  height: 45px;
   background-color: #fff;
   border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.member-icon-1 a,
 .member-icon a {
   color: #000;
 }
-.member-icon-1 {
-  padding: 12px 18px;
+.member-icon:hover a {
+  color: #fd635e;
 }
 .member-image {
   margin-right: 50px;
@@ -460,6 +469,12 @@ body {
   background-color: #fd635e;
   padding: 100px 0px;
 }
+.blog-section .blogs-link,
+.recent-projects .portfolio,
+.recent-updates .post {
+  list-style: none;
+  text-decoration: none;
+}
 .recent-updates .sub-heading,
 .recent-updates h1 {
   color: #fff;
@@ -477,6 +492,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  color: #000;
 }
 .posted .date {
   font-size: 18px;
@@ -491,6 +507,7 @@ body {
   line-height: 25px;
   font-size: 20px;
   margin-bottom: 20px;
+  color: #000;
 }
 
 .circle-image {
@@ -600,21 +617,21 @@ body {
 @media only screen and (max-width: 767px) {
   .banner-btn,
   .buttons > .button {
-    font-size: 10px;
-    padding: 7px 14px;
+    font-size: 6px;
+    padding: 5px 10px;
   }
   .banner {
-    padding: 75px 0px;
+    padding: 40px 0px;
   }
   .banner-title {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 40px;
   }
   .banner-title b {
-    font-size: 35px;
+    font-size: 25px;
   }
   .banner p {
-    font-size: 14px;
+    font-size: 10px;
   }
   .banner-btn {
     margin-top: 0px;
@@ -623,208 +640,342 @@ body {
   .projects,
   .clients,
   .apps {
-    padding: 30px;
+    padding: 20px 25px;
   }
   .projects h5,
   .awards h5,
   .clients h5,
   .apps h5 {
-    font-size: 12px;
+    font-size: 7px;
   }
 
   .projects h1,
   .awards h1,
   .clients h1,
   .apps h1 {
-    font-size: 30px;
+    font-size: 18px;
   }
   .project-images {
-    width: 60px;
+    width: 40px;
     position: absolute;
-    right: -15px;
-    bottom: -30px;
+    right: -10px;
+    bottom: -20px;
   }
+
+  .recent-updates,
+  .why-cchoose-us,
+  .pricing-plan,
+  .amazing-design,
+  .recent-projects,
   .dream-big-section {
-    padding: 50px 0px;
+    padding: 30px 0px;
   }
   .recent-projects .sub-heading,
-  .team-title-heading .sub-heading,
   .creative,
   .sub-heading {
-    font-size: 9px;
+    font-size: 7px;
   }
   .pricing-title h1,
   .recent-projects h1,
   .amazing-design h1,
   .text-section h1 {
-    font-size: 21px;
+    font-size: 16px;
   }
   .amazing-design p,
   .text-section p {
-    font-size: 9px;
-    margin-top: 10px;
+    font-size: 7px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+  .product-img {
+    position: none;
   }
   .marketing-text {
-    padding: 48px 25px;
+    padding: 23px;
   }
   .my-products {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
   .marketing-text h5 {
-    font-size: 20px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .marketing-text p {
-    font-size: 12px;
-    line-height: 20px;
-    margin: 21px 0px;
+    font-size: 8px;
+    line-height: 16px;
+    margin: 20px 0px;
   }
   .marketing-text button {
     font-size: 10px;
-    margin: 0px;
+    margin-bottom: 0px;
   }
   .marketing-text .fa-angle-right {
     margin-left: 5px;
     font-size: 1em;
   }
+  .amazing-design-img {
+    width: 450px;
+  }
   .amazing-design-text {
     text-align: center;
+    margin: 0px;
   }
   .amazing-design-text .sub-heading {
     margin-top: 50px;
-    font-size: 18px;
+    font-size: 10px;
   }
   .amazing-design-text h1 {
-    font-size: 36px;
+    font-size: 22px;
   }
   .amazing-design-text p {
-    font-size: 16px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .amazing-design-btn {
+    font-size: 8px;
+    padding: 5px 15px;
   }
   .project-inform .creative,
   .brand-text .creative,
   .photography .creative {
-    font-size: 8px;
+    font-size: 6px;
+  }
+  .recent-projects h1 {
+    margin-bottom: 30px;
   }
   .Mockup-img {
-    width: 330px;
+    width: 245px;
   }
   .recent-projects .icecream-mockup {
-    font-size: 16px;
-  }
-  .pricing-plan,
-  .recent-projects {
-    padding: 50px 0px;
-  }
-  .recent-projects .create-by,
-  .brand-text .create-by,
-  .photography .sub-heading {
     font-size: 11px;
-    margin: 0px;
-  }
-  .recent-projects .icecream-mockup {
     margin: 10px 0px;
   }
+  .recent-projects .create-by,
+  .brand-text .create-by {
+    font-size: 8px;
+    margin: 0px;
+  }
+  .unique-brand {
+    margin: 20px 0px;
+  }
   .brand-img {
-    width: 300px;
+    width: 220px;
   }
   .brand-text {
     margin: 0px;
   }
+  .photography-img {
+    margin-bottom: 15px;
+  }
+  .photography .icecream-mockup {
+    font-size: 12px;
+  }
+  .photography .sub-heading {
+    font-size: 6px;
+  }
   .photography-image {
-    width: 150px;
+    width: 108px;
   }
   .first-member {
-    padding: 100px 0px;
+    padding: 50px 0px;
   }
   .member-img {
-    width: 175px;
+    width: 110px;
   }
   .team-title {
-    font-size: 60px;
+    font-size: 25px;
+    margin-bottom: 0px;
   }
   .team-title-heading .amazing-design-btn {
-    font-size: 11px;
-    padding: 10px 25px;
+    font-size: 5px;
+    padding: 5px 8px;
+  }
+  .choose-plan-btn .fa-long-arrow-alt-right,
+  .team-title-heading .amazing-design-btn .fa-long-arrow-alt-right {
+    margin-left: 5px;
+  }
+  .team-title-heading .sub-heading {
+    font-size: 5px;
   }
   .team-title-heading {
-    right: 38%;
+    right: 39%;
+    top: 15px;
   }
   .member-information .work,
   .member-information-2 .work {
-    font-size: 10px;
+    font-size: 7px;
+    margin-bottom: 5px;
   }
   .member-information .name,
   .member-information-2 .name {
-    font-size: 20px;
+    font-size: 10px;
+    margin-bottom: 5px;
   }
   .member-information .contact-number,
   .member-information-2 .contact-number {
-    font-size: 13px;
+    font-size: 7px;
+    margin-bottom: 5px;
   }
   .member-icon {
-    padding: 6px 7px;
-    font-size: 0.5em;
+    height: 15px;
+    width: 15px;
+    font-size: 0.3em;
   }
-  .member-icon-1 {
-    padding: 6px 9px;
-    font-size: 0.5em;
+  .member-image {
+    margin-right: 10px;
+  }
+  .member-image-2 {
+    margin-left: 10px;
   }
   .plan {
-    padding: 30px 10px;
-    -webkit-box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.04);
-    -moz-box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.04);
-    box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.04);
+    padding: 30px;
+    margin-bottom: 30px;
   }
   .plan h1 {
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
   }
   .price sup {
-    font-size: 24px;
+    font-size: 36px;
   }
   .price p {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 60px;
+    line-height: 40px;
   }
   .plan .lorem {
-    font-size: 8px;
-    margin: 15px 0px;
+    font-size: 20px;
+    margin: 20px 0px;
   }
-  .plan .pkg-days {
-    font-size: 12px;
+  .plan .pkg-days p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
   .packages ul {
     padding: 0px;
+    margin-bottom: 10px;
   }
   .packages ul li {
-    font-size: 7px;
-    margin: 7px 0px;
+    font-size: 14px;
+    margin: 15px 0px;
   }
   .packages ul li::after {
-    content: '';
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    margin: 7px 0px;
-    border-bottom: 1px dashed #bbbbbb;
-  }
-  .packages ul :last-child::after {
-    content: none;
+    margin: 15px 0px;
   }
   .packages .fa-check {
-    margin-right: 10px;
-    font-size: 0.7em;
-    color: #f51e46;
+    margin-right: 20px;
+    font-size: 1em;
   }
   .choose-plan-btn {
-    padding: 5px 12px;
-    font-size: 8px;
+    padding: 10px 30px;
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+  }
+  .choose-plan-btn .fa-long-arrow-alt-right {
+    margin-left: 15px;
+  }
+  .logos {
+    width: 50px;
+  }
+  .brands {
+    margin: 20px 0px 0px 0px;
+  }
+  .financial-analysis,
+  .financial-analysis-1 {
+    padding: 20px 0px;
+  }
+  .financial-analysis h1,
+  .financial-analysis-1 h1 {
+    font-size: 14px;
+    margin: 10px 0px;
+  }
+  .financial-analysis p,
+  .financial-analysis-1 p {
+    font-size: 9px;
+  }
+  .posted-image {
+    padding: 50px 0px;
+  }
+  .posted {
+    margin-bottom: 50px;
+  }
+  .pricing-title h1 {
+    margin-bottom: 30px;
+  }
+  .circle-image {
+    right: 50px;
+    bottom: 20px;
+  }
+  #footer {
+    padding: 50px 0px 0px 0px;
+  }
+  .footer-img {
+    width: 100px;
+    margin-bottom: 30px;
+  }
+  /* .archieves,
+  .newsletter {
+    display: grid;
+    flex-wrap: nowrap;
+    justify-content: center;
+  } */
+  #footer h5 {
+    font-size: 9px;
+    margin-bottom: 10px;
+  }
+  #footer ul {
+    list-style: none;
+    padding: 0px;
     margin: 0px;
   }
-  .brand-image {
-    width: 100px;
+  #footer ul li {
+    margin-bottom: 0px;
+    padding: 0px;
   }
-  /* Code here */
-} /* Only Mobile */
+  #footer .recent-post ul li a,
+  #footer ul li a {
+    font-size: 7px;
+  }
+  #footer p {
+    font-size: 7px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  #footer ul .fa-angle-double-right {
+    margin-right: 5px;
+    font-size: 0.8em;
+  }
+  #footer input {
+    font-size: 8px;
+    padding: 6px 0px;
+  }
+  #footer .btn {
+    font-size: 8px;
+    padding: 6px 0px;
+    margin-top: 5px;
+  }
+  #footer-bottom {
+    margin-top: 50px;
+    padding: 15px 0px;
+  }
+  #footer-bottom .copyright {
+    font-size: 7px;
+    margin: 0px;
+  }
+  #footer-bottom ul {
+    font-size: 8px;
+  }
+  #footer-bottom ul li {
+    margin: 0px;
+  }
+  #footer-bottom ul li a {
+    color: #fff;
+  }
+  #footer-bottom ul li a:hover {
+    color: #f51e46;
+  }
+}
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
 } /* Only Tablet */

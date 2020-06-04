@@ -45,6 +45,7 @@ font-family: 'Open Sans', sans-serif; */
   font-size: 40px;
   font-weight: 600;
   margin: 0px;
+  color: #f51e46;
 }
 .company-statistics h6 {
   font-family: 'Arimo', sans-serif;
@@ -85,12 +86,15 @@ font-family: 'Open Sans', sans-serif; */
   background-color: #fff;
   border-radius: 100px;
   font-size: 2em;
-  padding: 30px 0px;
+  height: 90px;
   width: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
+}
+.design-section a {
+  color: #000;
 }
 .catalogues-icon:hover {
   background-color: #f51e46;
